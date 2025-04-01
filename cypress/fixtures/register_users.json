@@ -1,0 +1,41 @@
+{
+    "userinfo": [
+        {
+            "street": "streetmanuthy",
+            "city": "citymanuthy",
+            "state": "statestate",
+            "zip": "1234567",
+            "ssn": "244555",
+            "firstname": "manuthy",
+            "lastname": "kumar"
+        }
+    ],
+    "passwordconfirmnotmatch": [
+        {
+            "username": "Janet",
+            "password": "James",
+            "repeatpassword": "manuthyt",
+            "street": "Street 1, near church road",
+            "city": "Leeds",
+            "state": "York",
+            "zip": "Ls25 647",
+            "phone": "0124567891",
+            "ssn": "454666",
+            "firstname": "Janet",
+            "lastname": "James John"
+        }
+    ],
+   
+    "validregister": [
+        {
+            "firstname": "Tilcy",
+            "lastname": "Thomason",
+            "street": "Street 1, near church road , Roundhay",
+            "city": "Test city",
+            "state": "Test state",
+            "zip": "Ls25647",
+            "ssn": "244555",
+            "phone": "0123456789"
+        }
+    ]
+}

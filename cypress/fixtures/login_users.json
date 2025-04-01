@@ -1,0 +1,20 @@
+{
+   
+"userlogininfo":[ {
+    "username": "paru",
+    "password": "paru"
+  }],
+  "invalidUser": [{
+    "username": "test",
+    "password": ""
+  }],
+  "invalidpassword": [{
+    "username": "",
+    "password": "test"
+  }],
+  "invalidcredentials": [{
+    "username": "7ugl",
+    "password": "tes.t7"
+  }]
+    
+}
