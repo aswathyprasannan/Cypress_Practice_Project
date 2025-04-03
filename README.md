@@ -32,18 +32,23 @@ This project is a test automation framework using Cypress. It includes automated
 
 
 # Steps to Run
-1. Clone the Repository - git clone <repository_url>
+1. Clone the Repository 
+ git clone <repository_url>
 cd <project_folder>
-2. Install Dependencies- npm install
-3. Run Tests in Cypress Test Runner- npx cypress open
-4. Run Tests in Headless Mode (All Browsers)- npx cypress run --browser chrome
+2. Install Dependencies
+ npm install
+3. Run Tests in Cypress Test Runner
+npx cypress open
+4. Run Tests in Headless Mode (All Browsers)
+npx cypress run --browser chrome
 npx cypress run --browser edge
 npx cypress run --browser firefox
-5. Execute Tests in Parallel Across Browsers- npm run test:parallel
+5. Execute Tests in Parallel Across Browsers
+ npm run test:parallel
 
 
 # Test Results
-- The reports/browserfoldername/videos folder contains recordings of test executions.![Image Alt Text](C:\Users\Aswat\cypress_project_Para _2025\test-results\video_results.png)
+- The reports/browserfoldername/videos folder contains recordings of test executions.![Image Alt Text](test-results/video_results.png)
 - The reports/browserfoldername/index.html contains html test report.
 - The reports/screenshots folder stores screenshots captured during test executions.
 - Headless Report
