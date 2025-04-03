@@ -48,12 +48,19 @@ npx cypress run --browser firefox
 
 
 # Test Results
-- The reports/browserfoldername/videos folder contains recordings of test executions.![Image Alt Text](test-results/video_results.png)
+- The reports/browserfoldername/videos folder contains recordings of test executions.
+![Image Alt Text](test-results/video_results.png)
 - The reports/browserfoldername/index.html contains html test report.
+![Image Alt Text](test-results/HTML_report.jpeg)
 - The reports/screenshots folder stores screenshots captured during test executions.
+![Image Alt Text](test-results/ValidateUserRegistrationHomepage.png)
 - Headless Report
+![Image Alt Text](test-results/headless_chrome_result.png)
+![Image Alt Text](test-results/headless_edge_result.png)
+![Image Alt Text](test-results/headless_firefox_result.png)
 
 # Run Tests via GitHub Actions (CI/CD)
 - Tests run automatically via GitHub Actions as part of the CI/CD pipeline.
 - Tests are executed concurrently in Chrome, Edge, and Firefox for broader browser compatibility.
 - View the test results under GitHub Actions > Workflows in the repository.
+![Image Alt Text](test-results/github_action_ci_cd_job_result.png)
