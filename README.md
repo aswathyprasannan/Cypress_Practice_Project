@@ -5,7 +5,7 @@ This project is a test automation framework using Cypress. It includes automated
 
 
 # Features
--Automated testing of:
+- Automated testing of:
 
 1.User Registration
 
